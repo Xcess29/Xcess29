@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>my web page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+      float: left;
+      background-color: #666;
+      padding: 30px;
+      text-align: left;
+      font-size: 10px;
+      color: violet;
+      width: 25%
+    }
+
+    nav {
+      float: right;
+      width: 75%;
+      text-align: right;
+      height: 102px;
+      background: #ccc;
+      padding: 30px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .bg-text {
+      background-color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.4);
+      color: white;
+      font-weight: bold;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 80%;
+      padding: 20px;
+      text-align: center;
+
+      section::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+
+
+      }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h2>XCESSIVE>>></h2>
+  </header>
+
+  <section>
+    <nav>
+      <ul>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="About.html">About me</a></li>
+        <li><a href="contact-me.html">Contact me</a></li>
+      </ul>
+    </nav>
+
+
+  </section>
+  <img src="Images/imagepc.jfif" alt="" width="100%" height="100%" >
+  <div class="bg-text">
+    <h2>Hello!!!</h2>
+    <h1 style="font-size:50px">I am Helon Edmond</h1>
+    <p>And I'm a Web developer</p>
+  </div>
+
+
+</body>
+
+</html>
